@@ -1240,7 +1240,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-appstream-eus-debug-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - AppStream - Extended Update Support (Debug RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/appstream/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1324,7 +1324,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-appstream-eus-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - AppStream - Extended Update Support (RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/appstream/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1338,7 +1338,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-appstream-eus-source-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - AppStream - Extended Update Support (Source RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/appstream/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
