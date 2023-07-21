@@ -1212,7 +1212,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-sap-solutions-eus-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Extended Update Support (RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap-solutions/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1226,7 +1226,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-sap-solutions-eus-source-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Extended Update Support (Source RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap-solutions/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1366,7 +1366,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-sap-solutions-eus-debug-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - SAP Solutions - Extended Update Support (Debug RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/sap-solutions/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
