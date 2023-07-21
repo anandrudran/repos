@@ -52,7 +52,7 @@ enable_metadata = 0
 [rhel-atomic-7-cdk-3.2-source-rpms]
 name = Red Hat Container Development Kit 3.2 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.2/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -80,7 +80,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.2-debug-rpms]
 name = Red Hat Container Development Kit 3.2 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.2/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -121,7 +121,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.3-rpms]
 name = Red Hat Container Development Kit 3.3 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.3/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -149,7 +149,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.0-beta-debug-rpms]
 name = Red Hat Container Development Kit 3.0 Beta /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/beta/rhel/atomic/7/$basearch/cdk/3.0/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -217,7 +217,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.1-debug-rpms]
 name = Red Hat Container Development Kit 3.1 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.1/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -231,7 +231,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-2.3-rpms]
 name = Red Hat Container Development Kit 2.3 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.3/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -245,7 +245,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-2.4-debug-rpms]
 name = Red Hat Container Development Kit 2.4 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.4/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -1380,7 +1380,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-supplementary-eus-debug-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - Supplementary - Extended Update Support (Debug RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/supplementary/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1394,7 +1394,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.10-rpms]
 name = Red Hat Container Development Kit 3.10 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.10/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
