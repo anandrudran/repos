@@ -259,7 +259,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.0-rpms]
 name = Red Hat Container Development Kit 3.0 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.0/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -273,7 +273,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.1-rpms]
 name = Red Hat Container Development Kit 3.1 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.1/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -287,7 +287,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.5-rpms]
 name = Red Hat Container Development Kit 3.5 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -301,7 +301,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.6-debug-rpms]
 name = Red Hat Container Development Kit 3.6 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.6/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -329,7 +329,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.2-rpms]
 name = Red Hat Container Development Kit 3.2 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.2/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -343,7 +343,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.0-beta-source-rpms]
 name = Red Hat Container Development Kit 3.0 Beta /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/beta/rhel/atomic/7/$basearch/cdk/3.0/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -357,7 +357,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.7-rpms]
 name = Red Hat Container Development Kit 3.7 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.7/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -371,7 +371,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.6-source-rpms]
 name = Red Hat Container Development Kit 3.6 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.6/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -509,7 +509,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-2.3-source-rpms]
 name = Red Hat Container Development Kit 2.3 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.3/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -536,7 +536,7 @@ enable_metadata = 0
 [rhel-atomic-7-cdk-3.4-debug-rpms]
 name = Red Hat Container Development Kit 3.4 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.4/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -592,7 +592,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.6-rpms]
 name = Red Hat Container Development Kit 3.6 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.6/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -606,7 +606,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.4-rpms]
 name = Red Hat Container Development Kit 3.4 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.4/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -620,7 +620,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.5-source-rpms]
 name = Red Hat Container Development Kit 3.5 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -648,7 +648,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.4-source-rpms]
 name = Red Hat Container Development Kit 3.4 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.4/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -662,7 +662,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.0-debug-rpms]
 name = Red Hat Container Development Kit 3.0 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.0/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -703,7 +703,7 @@ enable_metadata = 0
 [rhel-atomic-7-cdk-2.4-rpms]
 name = Red Hat Container Development Kit 2.4 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.4/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -731,7 +731,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.3-debug-rpms]
 name = Red Hat Container Development Kit 3.3 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.3/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -759,7 +759,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.0-source-rpms]
 name = Red Hat Container Development Kit 3.0 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.0/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -773,7 +773,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.8-rpms]
 name = Red Hat Container Development Kit 3.8 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.8/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -843,7 +843,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.1-source-rpms]
 name = Red Hat Container Development Kit 3.1 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.1/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -857,7 +857,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.3-source-rpms]
 name = Red Hat Container Development Kit 3.3 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.3/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -885,7 +885,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-2.3-debug-rpms]
 name = Red Hat Container Development Kit 2.3 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.3/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -899,7 +899,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-3.5-debug-rpms]
 name = Red Hat Container Development Kit 3.5 /(Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.5/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -913,7 +913,7 @@ ui_repoid_vars = basearch
 [rhel-atomic-7-cdk-2.4-source-rpms]
 name = Red Hat Container Development Kit 2.4 /(Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/2.4/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
@@ -941,7 +941,7 @@ ui_repoid_vars = releasever
 [rhel-atomic-7-cdk-3.9-rpms]
 name = Red Hat Container Development Kit 3.9 /(RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel/atomic/7/7Server/$basearch/cdk/3.9/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = http://
 sslverify = 0
