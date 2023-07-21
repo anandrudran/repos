@@ -1184,7 +1184,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-supplementary-eus-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - Supplementary - Extended Update Support (RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/supplementary/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1198,7 +1198,7 @@ ui_repoid_vars = releasever
 [rhel-8-for-x86_64-supplementary-eus-source-rpms]
 name = Red Hat Enterprise Linux 8 for x86_64 - Supplementary - Extended Update Support (Source RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/supplementary/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
