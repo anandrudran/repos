@@ -440,7 +440,7 @@ ui_repoid_vars = releasever
 [codeready-builder-for-rhel-8-x86_64-rpms]
 name = Red Hat CodeReady Linux Builder for RHEL 8 x86_64 (RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/codeready-builder/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -468,7 +468,7 @@ ui_repoid_vars = releasever
 [codeready-builder-for-rhel-8-x86_64-debug-rpms]
 name = Red Hat CodeReady Linux Builder for RHEL 8 x86_64 (Debug RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/codeready-builder/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -717,7 +717,7 @@ ui_repoid_vars = basearch
 [codeready-builder-for-rhel-8-x86_64-source-rpms]
 name = Red Hat CodeReady Linux Builder for RHEL 8 x86_64 (Source RPMs)
 baseurl = https://cdn.redhat.com/content/dist/rhel8/$releasever/x86_64/codeready-builder/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1072,7 +1072,7 @@ enable_metadata = 0
 [codeready-builder-for-rhel-8-x86_64-eus-debug-rpms]
 name = Red Hat CodeReady Linux Builder for RHEL 8 x86_64 - Extended Update Support (Debug RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/codeready-builder/debug
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1254,7 +1254,7 @@ ui_repoid_vars = releasever
 [codeready-builder-for-rhel-8-x86_64-eus-rpms]
 name = Red Hat CodeReady Linux Builder for RHEL 8 x86_64 - Extended Update Support (RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/codeready-builder/os
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
@@ -1310,7 +1310,7 @@ ui_repoid_vars = releasever
 [codeready-builder-for-rhel-8-x86_64-eus-source-rpms]
 name = Red Hat CodeReady Linux Builder for RHEL 8 x86_64 - Extended Update Support (Source RPMs)
 baseurl = https://cdn.redhat.com/content/eus/rhel8/$releasever/x86_64/codeready-builder/source/SRPMS
-enabled = 1
+enabled = 0
 gpgcheck = 1
 gpgkey = file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
 sslverify = 0
